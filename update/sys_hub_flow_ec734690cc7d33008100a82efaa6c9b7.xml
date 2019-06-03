@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>publish_picture_on_linkedin</internal_name>
+        <label_cache>[{"name":"b3f19c65-b370-470f-a2ee-a0efb725d4e6.variable","label":"1➛asset","type":"string","base_type":"string"},{"name":"b3f19c65-b370-470f-a2ee-a0efb725d4e6.variable1","label":"1➛uploadurl","reference_display":"uploadurl","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Publish Picture on Linkedin</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:49:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec734690cc7d33008100a82efaa6c9b7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Publish Picture on Linkedin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_hub_flow_ec734690cc7d33008100a82efaa6c9b7</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec734690cc7d33008100a82efaa6c9b7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ec734690cc7d33008100a82efaa6c9b7"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=ec734690cc7d33008100a82efaa6c9b7^sys_idNOT IN4c198e94cc7d33008100a82efaa6c9cb,d7938a90cc7d33008100a82efaa6c923,db938a90cc7d33008100a82efaa6c920"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Publish Picture on Linkedin">ec734690cc7d33008100a82efaa6c9b7</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>4c198e94cc7d33008100a82efaa6c9cb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <ui_id>0581d15c-fecc-4ceb-b76c-d5d674ff6275</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c198e94cc7d33008100a82efaa6c9cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c198e94cc7d33008100a82efaa6c9cb</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>88198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <value>this message was published from ServiceNow IntegrationHub, I just created a new Linkedin Spoke, testing our 'New York' release. that was easy :-)</value>
+        <variable display_value="">fe7ea154cc3d33008100a82efaa6c9e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c198e94cc7d33008100a82efaa6c9cb</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>c4198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <value>PUBLIC</value>
+        <variable display_value="">0b7ea154cc3d33008100a82efaa6c9ee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4c198e94cc7d33008100a82efaa6c9cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>asset</field>
+        <id>4c198e94cc7d33008100a82efaa6c9cb</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>44198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</table>
+        <value>{{b3f19c65-b370-470f-a2ee-a0efb725d4e6.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>4c198e94cc7d33008100a82efaa6c9cb</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>80198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>visibility</field>
+        <id>4c198e94cc7d33008100a82efaa6c9cb</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>cc198e94cc7d33008100a82efaa6c9cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Upload image file">f68a8590ccf933008100a82efaa6c94e</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Publish Picture on Linkedin">ec734690cc7d33008100a82efaa6c9b7</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:42</sys_created_on>
+        <sys_id>d7938a90cc7d33008100a82efaa6c923</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <ui_id>2b8904f9-f12c-48c5-8d0e-bd9ebe9c76c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d7938a90cc7d33008100a82efaa6c923"/>
+    <sys_element_mapping action="delete_multiple" query="id=d7938a90cc7d33008100a82efaa6c923"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>uploadurl</field>
+        <id>d7938a90cc7d33008100a82efaa6c923</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:42</sys_created_on>
+        <sys_id>5f938a90cc7d33008100a82efaa6c924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 18:50:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f68a8590ccf933008100a82efaa6c94e</table>
+        <value>{{b3f19c65-b370-470f-a2ee-a0efb725d4e6.variable1}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Register your image to be uploaded">5d81f1c4cc7533008100a82efaa6c916</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Publish Picture on Linkedin">ec734690cc7d33008100a82efaa6c9b7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:42</sys_created_on>
+        <sys_id>db938a90cc7d33008100a82efaa6c920</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <ui_id>b3f19c65-b370-470f-a2ee-a0efb725d4e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=db938a90cc7d33008100a82efaa6c920"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ec734690cc7d33008100a82efaa6c9b7^sys_idNOT IN9da34a90cc7d33008100a82efaa6c9d0"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Publish Picture on Linkedin">ec734690cc7d33008100a82efaa6c9b7</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:49</sys_created_on>
+        <sys_id>9da34a90cc7d33008100a82efaa6c9d0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9da34a90cc7d33008100a82efaa6c9d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9da34a90cc7d33008100a82efaa6c9d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:49</sys_created_on>
+        <sys_id>dda34a90cc7d33008100a82efaa6c9d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 18:50:49</sys_updated_on>
+        <value>1970-01-01 12:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ec734690cc7d33008100a82efaa6c9b7^sys_idNOT IN2c734690cc7d33008100a82efaa6c9b9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ec734690cc7d33008100a82efaa6c9b7</id>
+        <name>Publish Picture on Linkedin</name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:49:57</sys_created_on>
+        <sys_id>2c734690cc7d33008100a82efaa6c9b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 18:49:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ec734690cc7d33008100a82efaa6c9b7^sys_idNOT IN4c198e94cc7d33008100a82efaa6c9cb,d7938a90cc7d33008100a82efaa6c923,db938a90cc7d33008100a82efaa6c920"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Publish Picture on Linkedin">ec734690cc7d33008100a82efaa6c9b7</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>4c198e94cc7d33008100a82efaa6c9cb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <ui_id>0581d15c-fecc-4ceb-b76c-d5d674ff6275</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c198e94cc7d33008100a82efaa6c9cb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c198e94cc7d33008100a82efaa6c9cb</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>88198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <value>this message was published from ServiceNow IntegrationHub, I just created a new Linkedin Spoke, testing our 'New York' release. that was easy :-)</value>
+        <variable display_value="">fe7ea154cc3d33008100a82efaa6c9e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c198e94cc7d33008100a82efaa6c9cb</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>c4198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <value>PUBLIC</value>
+        <variable display_value="">0b7ea154cc3d33008100a82efaa6c9ee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4c198e94cc7d33008100a82efaa6c9cb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>asset</field>
+        <id>4c198e94cc7d33008100a82efaa6c9cb</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>44198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</table>
+        <value>{{b3f19c65-b370-470f-a2ee-a0efb725d4e6.variable}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>text</field>
+        <id>4c198e94cc7d33008100a82efaa6c9cb</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>80198e94cc7d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>visibility</field>
+        <id>4c198e94cc7d33008100a82efaa6c9cb</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:14:30</sys_created_on>
+        <sys_id>cc198e94cc7d33008100a82efaa6c9cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:14:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Upload image file">f68a8590ccf933008100a82efaa6c94e</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Publish Picture on Linkedin">ec734690cc7d33008100a82efaa6c9b7</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:42</sys_created_on>
+        <sys_id>d7938a90cc7d33008100a82efaa6c923</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <ui_id>2b8904f9-f12c-48c5-8d0e-bd9ebe9c76c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d7938a90cc7d33008100a82efaa6c923"/>
+    <sys_element_mapping action="delete_multiple" query="id=d7938a90cc7d33008100a82efaa6c923"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>uploadurl</field>
+        <id>d7938a90cc7d33008100a82efaa6c923</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:42</sys_created_on>
+        <sys_id>5f938a90cc7d33008100a82efaa6c924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 18:50:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f68a8590ccf933008100a82efaa6c94e</table>
+        <value>{{b3f19c65-b370-470f-a2ee-a0efb725d4e6.variable1}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Register your image to be uploaded">5d81f1c4cc7533008100a82efaa6c916</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Publish Picture on Linkedin">ec734690cc7d33008100a82efaa6c9b7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 18:50:42</sys_created_on>
+        <sys_id>db938a90cc7d33008100a82efaa6c920</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:44:54</sys_updated_on>
+        <ui_id>b3f19c65-b370-470f-a2ee-a0efb725d4e6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=db938a90cc7d33008100a82efaa6c920"/>
+</record_update>

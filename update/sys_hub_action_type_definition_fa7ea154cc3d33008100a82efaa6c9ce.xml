@@ -1,0 +1,2995 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>928e9904cc3533008100a82efaa6c9e9</copied_from>
+        <copied_from_name>Create a text share</copied_from_name>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>create_the_image_share</internal_name>
+        <label_cache>[{"name":"{{action.text}}","label":"action➛text","type":"action","ref":""},{"name":"{{action.asset}}","label":"action➛asset","type":"action","ref":""},{"name":"{{action.authorid}}","label":"action➛authorid","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>f9e41a94ccbd33008100a82efaa6c96a</latest_snapshot>
+        <master_snapshot>2258c694cc7d33008100a82efaa6c948</master_snapshot>
+        <name>Create the Image Share</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa7ea154cc3d33008100a82efaa6c9ce</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Create the Image Share</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_fa7ea154cc3d33008100a82efaa6c9ce</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 20:06:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa7ea154cc3d33008100a82efaa6c9ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fa7ea154cc3d33008100a82efaa6c9ce"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=fa7ea154cc3d33008100a82efaa6c9ce^sys_idNOT IN077ea154cc3d33008100a82efaa6c9f9"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</action>
+        <cid>ea108fa6-afc7-44ab-8c12-13b95a81b0f2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>077ea154cc3d33008100a82efaa6c9f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:34</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=077ea154cc3d33008100a82efaa6c9f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>077ee154cc3d33008100a82efaa6c90c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>0b7ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>/v2/ugcPosts</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>437ee154cc3d33008100a82efaa6c90c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>https://api.linkedin.com</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>477ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>d701a984cc3533008100a82efaa6c9d9</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>837ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>8f7ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>c77ee154cc3d33008100a82efaa6c90c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>cb7ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Restli-Protocol-Version","value":"2.0.0"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>cf7ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:20:10</sys_created_on>
+        <sys_id>d5eea554cc3d33008100a82efaa6c9c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:35</sys_updated_on>
+        <value/>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=077ea154cc3d33008100a82efaa6c9f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>8b7ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>c77ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>477ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+"author": "urn:li:person:{{action.authorid}}",
+"lifecycleState": "PUBLISHED",
+"specificContent": {
+"com.linkedin.ugc.ShareContent": {
+"shareCommentary": {
+"text": "{{action.text}}"
+},
+"shareMediaCategory": "IMAGE",
+"media": [
+{
+"status": "READY",
+"description": {
+"text": "test"
+},
+"media": "{{action.asset}}",
+"title": {
+"text": "{{action.text}}"
+}
+}
+]
+}
+},
+"visibility": {
+"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
+}
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>077ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>cb7ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>437ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>0b7ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>4f7ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>8f7ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>837ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=077ea154cc3d33008100a82efaa6c9f9^sys_idNOT IN837ea154cc3d33008100a82efaa6c9ff"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">077ea154cc3d33008100a82efaa6c9f9</model>
+        <model_id>077ea154cc3d33008100a82efaa6c9f9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_077ea154cc3d33008100a82efaa6c9f9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>837ea154cc3d33008100a82efaa6c9ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=fa7ea154cc3d33008100a82efaa6c9ce^sys_idNOT IN0b7ea154cc3d33008100a82efaa6c9ee,22d8ca94cc7d33008100a82efaa6c93e,b67ea154cc3d33008100a82efaa6c9d2,b67ea154cc3d33008100a82efaa6c9da,cf7ea154cc3d33008100a82efaa6c9e6,fe7ea154cc3d33008100a82efaa6c9e1"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>CONNECTIONS</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>visibility</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>visibility</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</model>
+        <model_id>fa7ea154cc3d33008100a82efaa6c9ce</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>0b7ea154cc3d33008100a82efaa6c9ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>asset</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>asset</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</model>
+        <model_id>fa7ea154cc3d33008100a82efaa6c9ce</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:13:34</sys_created_on>
+        <sys_id>22d8ca94cc7d33008100a82efaa6c93e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>authorid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>authorid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</model>
+        <model_id>fa7ea154cc3d33008100a82efaa6c9ce</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>b67ea154cc3d33008100a82efaa6c9d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 20:01:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>PUBLISHED</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lifecyclestate</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>lifecycleState</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</model>
+        <model_id>fa7ea154cc3d33008100a82efaa6c9ce</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>b67ea154cc3d33008100a82efaa6c9da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>NONE</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sharemediacategory</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>shareMediaCategory</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</model>
+        <model_id>fa7ea154cc3d33008100a82efaa6c9ce</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>cf7ea154cc3d33008100a82efaa6c9e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>text</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>text</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</model>
+        <model_id>fa7ea154cc3d33008100a82efaa6c9ce</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>fe7ea154cc3d33008100a82efaa6c9e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=fa7ea154cc3d33008100a82efaa6c9ce^sys_idNOT IN077ea154cc3d33008100a82efaa6c9f9"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</action>
+        <cid>ea108fa6-afc7-44ab-8c12-13b95a81b0f2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>077ea154cc3d33008100a82efaa6c9f9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:34</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=077ea154cc3d33008100a82efaa6c9f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>077ee154cc3d33008100a82efaa6c90c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>0b7ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>/v2/ugcPosts</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>437ee154cc3d33008100a82efaa6c90c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>https://api.linkedin.com</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>477ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>d701a984cc3533008100a82efaa6c9d9</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>837ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>8f7ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>c77ee154cc3d33008100a82efaa6c90c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>cb7ee154cc3d33008100a82efaa6c90b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Restli-Protocol-Version","value":"2.0.0"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>cf7ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>077ea154cc3d33008100a82efaa6c9f9</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:20:10</sys_created_on>
+        <sys_id>d5eea554cc3d33008100a82efaa6c9c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:35</sys_updated_on>
+        <value/>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=077ea154cc3d33008100a82efaa6c9f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>8b7ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>c77ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>477ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+"author": "urn:li:person:{{action.authorid}}",
+"lifecycleState": "PUBLISHED",
+"specificContent": {
+"com.linkedin.ugc.ShareContent": {
+"shareCommentary": {
+"text": "{{action.text}}"
+},
+"shareMediaCategory": "IMAGE",
+"media": [
+{
+"status": "READY",
+"description": {
+"text": "test"
+},
+"media": "{{action.asset}}",
+"title": {
+"text": "{{action.text}}"
+}
+}
+]
+}
+},
+"visibility": {
+"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
+}
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>077ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>cb7ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>437ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>0b7ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>4f7ee154cc3d33008100a82efaa6c90a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>8f7ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>077ea154cc3d33008100a82efaa6c9f9</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>837ee154cc3d33008100a82efaa6c909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=077ea154cc3d33008100a82efaa6c9f9^sys_idNOT IN837ea154cc3d33008100a82efaa6c9ff"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">077ea154cc3d33008100a82efaa6c9f9</model>
+        <model_id>077ea154cc3d33008100a82efaa6c9f9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_077ea154cc3d33008100a82efaa6c9f9</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>837ea154cc3d33008100a82efaa6c9ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce^sys_idNOT IN037ea154cc3d33008100a82efaa6c9e6,0b7ea154cc3d33008100a82efaa6c9f6,327ea154cc3d33008100a82efaa6c9e1,4b7ea154cc3d33008100a82efaa6c9ed,e2d8ca94cc7d33008100a82efaa6c942,f67ea154cc3d33008100a82efaa6c9d9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>text</element>
+        <help/>
+        <hint>Text that will be posted on user Linkedin profile</hint>
+        <label>text</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>037ea154cc3d33008100a82efaa6c9e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>text</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce_text_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>visibility</element>
+        <help/>
+        <hint/>
+        <label>visibility</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>0b7ea154cc3d33008100a82efaa6c9f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>visibility</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce_visibility_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>lifecyclestate</element>
+        <help/>
+        <hint/>
+        <label>lifecycleState</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>327ea154cc3d33008100a82efaa6c9e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lifecycleState</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce_lifecyclestate_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sharemediacategory</element>
+        <help/>
+        <hint/>
+        <label>shareMediaCategory</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>4b7ea154cc3d33008100a82efaa6c9ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shareMediaCategory</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce_sharemediacategory_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>asset</element>
+        <help/>
+        <hint/>
+        <label>asset</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:13:34</sys_created_on>
+        <sys_id>e2d8ca94cc7d33008100a82efaa6c942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce_asset_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>authorid</element>
+        <help/>
+        <hint/>
+        <label>authorid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+        <sys_id>f67ea154cc3d33008100a82efaa6c9d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>authorid</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce_authorid_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce^sys_idNOT IN4b7ea154cc3d33008100a82efaa6c9f1,077ea154cc3d33008100a82efaa6c9f2"/>
+    <sys_choice field="visibility" table="var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visibility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CONNECTIONS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+            <sequence>1</sequence>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b7ea154cc3d33008100a82efaa6c9f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+            <value>CONNECTIONS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visibility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PUBLIC</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_fa7ea154cc3d33008100a82efaa6c9ce</name>
+            <sequence>2</sequence>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2019-05-29 17:18:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>077ea154cc3d33008100a82efaa6c9f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2019-05-29 17:18:22</sys_updated_on>
+            <value>PUBLIC</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=fa7ea154cc3d33008100a82efaa6c9ce^sys_idNOT IN3e58c694cc7d33008100a82efaa6c9c7"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3e58c694cc7d33008100a82efaa6c9c7","name":"plan"}}</plan>
+        <snapshot>f9e41a94ccbd33008100a82efaa6c96a</snapshot>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e58c694cc7d33008100a82efaa6c9c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 20:06:15</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_the_image_share</internal_name>
+        <label_cache>[{"name":"{{action.text}}","label":"action➛text","type":"action","ref":""},{"name":"{{action.asset}}","label":"action➛asset","type":"action","ref":""},{"name":"{{action.authorid}}","label":"action➛authorid","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Create the Image Share</name>
+        <outputs/>
+        <parent_action display_value="Create the Image Share">fa7ea154cc3d33008100a82efaa6c9ce</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2258c694cc7d33008100a82efaa6c948</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:39</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2258c694cc7d33008100a82efaa6c948"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2258c694cc7d33008100a82efaa6c948"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=2258c694cc7d33008100a82efaa6c948^sys_idNOT IN6e58c694cc7d33008100a82efaa6c96f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</action>
+        <cid>ea108fa6-afc7-44ab-8c12-13b95a81b0f2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6e58c694cc7d33008100a82efaa6c96f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e58c694cc7d33008100a82efaa6c96f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2258c694cc7d33008100a82efaa6c983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2658c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>/v2/ugcPosts</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2a58c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6258c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>d701a984cc3533008100a82efaa6c9d9</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6e58c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>https://api.linkedin.com</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>aa58c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ae58c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e258c694cc7d33008100a82efaa6c983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e658c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Restli-Protocol-Version","value":"2.0.0"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ea58c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+        <value/>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e58c694cc7d33008100a82efaa6c96f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e258c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2258c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ae58c694cc7d33008100a82efaa6c97f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+"author": "urn:li:person:{{action.authorid}}",
+"lifecycleState": "PUBLISHED",
+"specificContent": {
+"com.linkedin.ugc.ShareContent": {
+"shareCommentary": {
+"text": "{{action.text}}"
+},
+"shareMediaCategory": "IMAGE",
+"media": [
+{
+"status": "READY",
+"description": {
+"text": "test"
+},
+"media": "{{action.asset}}",
+"title": {
+"text": "{{action.text}}"
+}
+}
+]
+}
+},
+"visibility": {
+"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
+}
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6e58c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2658c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>aa58c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6258c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>a658c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e658c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ea58c694cc7d33008100a82efaa6c97f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6e58c694cc7d33008100a82efaa6c96f^sys_idNOT INea58c694cc7d33008100a82efaa6c975"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">6e58c694cc7d33008100a82efaa6c96f</model>
+        <model_id>6e58c694cc7d33008100a82efaa6c96f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6e58c694cc7d33008100a82efaa6c96f</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ea58c694cc7d33008100a82efaa6c975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=2258c694cc7d33008100a82efaa6c948^sys_idNOT IN2a58c694cc7d33008100a82efaa6c958,2a58c694cc7d33008100a82efaa6c95d,37d80e94cc7d33008100a82efaa6c98d,6258c694cc7d33008100a82efaa6c965,ee58c694cc7d33008100a82efaa6c948,ee58c694cc7d33008100a82efaa6c950"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>text</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>text</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</model>
+        <model_id>2258c694cc7d33008100a82efaa6c948</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>2a58c694cc7d33008100a82efaa6c958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>NONE</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sharemediacategory</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>shareMediaCategory</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</model>
+        <model_id>2258c694cc7d33008100a82efaa6c948</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>2a58c694cc7d33008100a82efaa6c95d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>asset</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>asset</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</model>
+        <model_id>2258c694cc7d33008100a82efaa6c948</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:13:40</sys_created_on>
+        <sys_id>37d80e94cc7d33008100a82efaa6c98d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>CONNECTIONS</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>visibility</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>visibility</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</model>
+        <model_id>2258c694cc7d33008100a82efaa6c948</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>6258c694cc7d33008100a82efaa6c965</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>authorid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>authorid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</model>
+        <model_id>2258c694cc7d33008100a82efaa6c948</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>ee58c694cc7d33008100a82efaa6c948</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 20:06:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>PUBLISHED</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lifecyclestate</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>lifecycleState</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</model>
+        <model_id>2258c694cc7d33008100a82efaa6c948</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>ee58c694cc7d33008100a82efaa6c950</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=2258c694cc7d33008100a82efaa6c948^sys_idNOT IN6e58c694cc7d33008100a82efaa6c96f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create the Image Share">2258c694cc7d33008100a82efaa6c948</action>
+        <cid>ea108fa6-afc7-44ab-8c12-13b95a81b0f2</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6e58c694cc7d33008100a82efaa6c96f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e58c694cc7d33008100a82efaa6c96f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2258c694cc7d33008100a82efaa6c983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2658c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>/v2/ugcPosts</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2a58c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6258c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>d701a984cc3533008100a82efaa6c9d9</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6e58c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>https://api.linkedin.com</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>aa58c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ae58c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e258c694cc7d33008100a82efaa6c983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e658c694cc7d33008100a82efaa6c982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Restli-Protocol-Version","value":"2.0.0"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>6e58c694cc7d33008100a82efaa6c96f</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ea58c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+        <value/>
+        <variable display_value="">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e58c694cc7d33008100a82efaa6c96f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e258c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2258c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ae58c694cc7d33008100a82efaa6c97f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{
+"author": "urn:li:person:{{action.authorid}}",
+"lifecycleState": "PUBLISHED",
+"specificContent": {
+"com.linkedin.ugc.ShareContent": {
+"shareCommentary": {
+"text": "{{action.text}}"
+},
+"shareMediaCategory": "IMAGE",
+"media": [
+{
+"status": "READY",
+"description": {
+"text": "test"
+},
+"media": "{{action.asset}}",
+"title": {
+"text": "{{action.text}}"
+}
+}
+]
+}
+},
+"visibility": {
+"com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
+}
+}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6e58c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>2658c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>aa58c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6258c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>a658c694cc7d33008100a82efaa6c981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>e658c694cc7d33008100a82efaa6c980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>6e58c694cc7d33008100a82efaa6c96f</id>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ea58c694cc7d33008100a82efaa6c97f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=6e58c694cc7d33008100a82efaa6c96f^sys_idNOT INea58c694cc7d33008100a82efaa6c975"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">6e58c694cc7d33008100a82efaa6c96f</model>
+        <model_id>6e58c694cc7d33008100a82efaa6c96f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_6e58c694cc7d33008100a82efaa6c96f</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>ea58c694cc7d33008100a82efaa6c975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948^sys_idNOT IN2258c694cc7d33008100a82efaa6c950,6258c694cc7d33008100a82efaa6c96d,6a58c694cc7d33008100a82efaa6c957,6a58c694cc7d33008100a82efaa6c95c,a258c694cc7d33008100a82efaa6c964,f7d80e94cc7d33008100a82efaa6c991"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>authorid</element>
+        <help/>
+        <hint/>
+        <label>authorid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>2258c694cc7d33008100a82efaa6c950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>authorid</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948_authorid_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>visibility</element>
+        <help/>
+        <hint/>
+        <label>visibility</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+        <sys_id>6258c694cc7d33008100a82efaa6c96d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>visibility</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948_visibility_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>lifecyclestate</element>
+        <help/>
+        <hint/>
+        <label>lifecycleState</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>6a58c694cc7d33008100a82efaa6c957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lifecycleState</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948_lifecyclestate_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>text</element>
+        <help/>
+        <hint/>
+        <label>text</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>6a58c694cc7d33008100a82efaa6c95c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948_text_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sharemediacategory</element>
+        <help/>
+        <hint/>
+        <label>shareMediaCategory</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+        <sys_id>a258c694cc7d33008100a82efaa6c964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shareMediaCategory</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948_sharemediacategory_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>asset</element>
+        <help/>
+        <hint/>
+        <label>asset</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>quentin.carton</sys_created_by>
+        <sys_created_on>2019-05-29 19:13:40</sys_created_on>
+        <sys_id>f7d80e94cc7d33008100a82efaa6c991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset</sys_name>
+        <sys_package display_value="Linkedin" source="sn_linkedin">ffc00588ccb133008100a82efaa6c990</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Linkedin">ffc00588ccb133008100a82efaa6c990</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948_asset_en</sys_update_name>
+        <sys_updated_by>quentin.carton</sys_updated_by>
+        <sys_updated_on>2019-05-29 19:13:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948^sys_idNOT INa258c694cc7d33008100a82efaa6c968,6e58c694cc7d33008100a82efaa6c968"/>
+    <sys_choice field="visibility" table="var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visibility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CONNECTIONS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+            <sequence>1</sequence>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2019-05-29 19:11:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a258c694cc7d33008100a82efaa6c968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2019-05-29 19:11:23</sys_updated_on>
+            <value>CONNECTIONS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>visibility</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PUBLIC</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_2258c694cc7d33008100a82efaa6c948</name>
+            <sequence>2</sequence>
+            <sys_created_by>quentin.carton</sys_created_by>
+            <sys_created_on>2019-05-29 19:11:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e58c694cc7d33008100a82efaa6c968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>quentin.carton</sys_updated_by>
+            <sys_updated_on>2019-05-29 19:11:24</sys_updated_on>
+            <value>PUBLIC</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
